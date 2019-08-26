@@ -11,4 +11,3 @@
   3.1. executar:
     >> npm install
     >> npm start
-    
