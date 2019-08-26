@@ -12,6 +12,15 @@
     
     -- configurar o arquivo 'config/database.js', dentro da pasta backend, com as configurações do seu banco.
     
+    ## SUBIR MIGRATION ##
+        --- yarn sequelize db:migrate
+    ## DESFAZER TODAS MIGRATIONS  - DEIXANDO ESTADO INICIAL ##
+        ---  yarn sequelize db:migrate:undo:all
+    ## DESFAZENDO A ULTIMA MIGRATION ##
+        --- yarn sequelize db:undo
+    ## DESFAZENDO UMA MIGRATION ESPECÍFICA ##
+        --- yarn sequelize db:migrate:undo:all --to XXXXXXXXXXXXXX-create-users.js
+    
     >> npm start
     
 3. Frontend
