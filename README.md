@@ -8,6 +8,9 @@
     >> npm start
     
 3. Frontend
+
   3.1. executar:
-    >> npm install
-    >> npm start
+  
+      >> npm install
+    
+      >> npm start
