@@ -34,6 +34,8 @@ class FormularioCadAlunos extends Component {
   }
   clean() {
     this.setState({aluno: initialState})
+
+    window.location.href= "/alunos";
   }
 
   save() {
@@ -43,7 +45,6 @@ class FormularioCadAlunos extends Component {
 
     axios[method](url, aluno).then(resp => {
       this.clean()
-      window.location.href= "/alunos";
     })
   }
 
@@ -103,7 +104,7 @@ class FormularioCadAlunos extends Component {
               Salvar
             </button>
             <button className="btn btn-secondary ml-2"
-                    onClick={e => this.clear(e)}>
+                    onClick={e => this.clean(e)}>
               Cancelar
             </button>
           </div>
