@@ -1,0 +1,12 @@
+.Footer {
+    flex-shrink: 0;
+    background-color: #212529;
+    color: white;
+    font-size: 25px;
+    text-size-adjust: auto;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index: 999;
+}

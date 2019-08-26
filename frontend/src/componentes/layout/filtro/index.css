@@ -1,0 +1,19 @@
+.filtro {
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+Form {
+    /* Apenas para centralizar o form na página */
+    margin: 1rem;
+    width: 97.8%;
+    height: 10rem;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+}
+input {
+    width: 35rem;
+    margin-right: 3rem;
+}
